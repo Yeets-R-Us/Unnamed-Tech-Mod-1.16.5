@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="MIT"
+[[mods]]
+modId="unnamedmod"
+version="${file.jarVersion}"
+displayName="Unnamed Mod"
+logoFile="examplemod.png"
+credits="Mod by Yeets-R-Us"
+description='''
+Yeet
+'''
+
+[[dependencies.unnamedmod]]
+modId="forge"
+mandatory=true
+versionRange="[35,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.unnamedmod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.4,1.17)"
+ordering="NONE"
+side="BOTH"
