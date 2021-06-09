@@ -2,7 +2,7 @@ package com.yeets.unnamed.common;
 
 import javax.annotation.Nonnull;
 
-import com.yeets.unnamed.common.registry.ItemRegistry;
+import com.yeets.unnamed.common.registry.UnnamedItems;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 
@@ -18,6 +18,6 @@ public class UnnamedItemGroup extends ItemGroup {
     @Nonnull
     @Override
     public ItemStack makeIcon() {
-        return new ItemStack(ItemRegistry.EXAMPLE_ITEM.get());
+        return new ItemStack(UnnamedItems.EXAMPLE_ITEM.get());
     }
 }
